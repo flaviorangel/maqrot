@@ -1,0 +1,4 @@
+open terminal
+type matlab
+open .m file
+run
