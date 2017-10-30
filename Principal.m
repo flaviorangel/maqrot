@@ -40,15 +40,15 @@ Valores; %import from .m file
             c=c+1;
         end
     end
-    if c==a
-        Vazaoanalitica;
-        disp('you idiot')
-        disp('vaz?o analitica =')
-        disp(Qan)
-        erro=abs((Q-Qan)*(100/Qan));
-        disp('erro(%):')
-        disp(erro)
-    end
+    %if c==a
+    %    Vazaoanalitica;
+    %    disp('you idiot')
+    %    disp('vaz?o analitica =')
+    %    disp(Qan)
+    %    erro=abs((Q-Qan)*(100/Qan));
+    %    disp('erro(%):')
+    %    disp(erro)
+    %end
     figure;
     surf(Xraio,Yraio,ur);
     axis([-0.045 0.045 -0.045 0.045])
